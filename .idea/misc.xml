@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/activity_detailbayar.xml" value="0.33" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/activity_faktur.xml" value="0.36666666666666664" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/activity_image.xml" value="0.22395833333333334" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/activity_konfirmasibayar.xml" value="0.36666666666666664" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/activity_login.xml" value="0.30625" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/activity_main.xml" value="0.5" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/activity_passcek.xml" value="0.36666666666666664" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/activity_payment.xml" value="0.36666666666666664" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/activity_splash.xml" value="0.358695652173913" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/activity_ubahpass.xml" value="0.5" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/fragment_beranda.xml" value="0.33" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/fragment_profil.xml" value="0.5" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/fragment_riwayat.xml" value="0.18802083333333333" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/item_detailbayar.xml" value="0.365625" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/layout/item_jadwalbayar.xml" value="0.35104166666666664" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/menu/menu_bottom.xml" value="0.18802083333333333" />
+        <entry key="..\:/DATA KERJAAN/ANDROID PROJECT/KOTLIN/SipTren2/app/src/main/res/xml/provider_paths.xml" value="0.33" />
+        <entry key="..\:/Users/ipung/AndroidStudioProjects/SipTren2/app/src/main/res/layout/activity_detailbayar.xml" value="0.15307971014492755" />
+        <entry key="..\:/Users/ipung/AndroidStudioProjects/SipTren2/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/ipung/AndroidStudioProjects/SipTren2/app/src/main/res/layout/fragment_beranda.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ipung/AndroidStudioProjects/SipTren2/app/src/main/res/layout/item_detailbayar.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

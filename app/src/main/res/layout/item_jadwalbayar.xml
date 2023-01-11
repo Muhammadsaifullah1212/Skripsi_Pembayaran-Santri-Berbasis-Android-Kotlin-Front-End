@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_margin="5dp"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- Warna item -->
+    <LinearLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="50dp"
+        android:layout_height="75dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="6dp"
+            android:src="@drawable/ic_baseline_campaign_24" />
+    </LinearLayout>
+
+    <!-- Detail Item -->
+    <LinearLayout
+        android:layout_marginRight="2dp"
+        android:layout_gravity="center_vertical"
+        android:background="@color/yellow"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="69dp">
+
+        <LinearLayout
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:textColor="@color/black"
+                android:textSize="13sp"
+                android:text="Jatuh Tempo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="5dp"
+                android:textSize="13sp"
+                android:id="@+id/itemJadwal_tempo"
+                android:gravity="right"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:text="10 Januari 2022"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="13sp"
+                android:text="Nominal Pembayaran"
+                android:textColor="@color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginRight="5dp"
+                android:id="@+id/itemJadwal_nominal"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:gravity="right"
+                android:layout_weight="1"
+                android:text="650.000"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="3dp"
+            android:textSize="13sp"
+            android:id="@+id/itemJadwal_status"
+            android:textColor="@color/black"
+            android:layout_gravity="right"
+            android:textStyle="italic"
+            android:text="Lunas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

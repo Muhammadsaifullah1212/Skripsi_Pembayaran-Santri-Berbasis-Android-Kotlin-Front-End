@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.DetailbayarActivity">
+
+    <!-- Back Button -->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <ImageButton
+            android:id="@+id/detailbayar_back"
+            android:background="@android:color/white"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        app:cardBackgroundColor="@color/colorPrimaryDark"
+        android:elevation="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginBottom="20dp"
+                android:id="@+id/detailbayar_bulan"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="JANUARI 2022/2023"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <!-- Header -->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="90dp">
+
+                <!-- Jatuh Tempo -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp">
+
+                    <TextView
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:text="Jatuh Tempo"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:text=" : "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/detailbayar_jatuhtempo"
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:text="10 Januari 2022"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <!-- Total Bayar -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp">
+
+                    <TextView
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:text="Nominal Pembayaran"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:text=" : "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/detailbayar_nominal"
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:text="650.000"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <!-- Tanggal Bayar -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp">
+
+                    <TextView
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:text="Tanggal Bayar"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:text=" : "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/detailbayar_tglbayar"
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:text="10 Januari 2022"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+                <!-- Status Pembayaran -->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp">
+
+                    <TextView
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:layout_weight="1"
+                        android:text="Status"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:textSize="13sp"
+                        android:textColor="@color/white"
+                        android:text=" : "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/detailbayar_status"
+                        android:textSize="13sp"
+                        android:textStyle="italic"
+                        android:textColor="@color/white"
+                        android:text="Lunas"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- Body -->
+    <LinearLayout
+        android:id="@+id/detailbayar_main"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <!-- Judul Detail Tagihan -->
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginBottom="15dp"
+            android:text="Detail Tagihan/Pembayaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Daftar Tagihan/Pembayaran -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- Item Tagihan/Pembayaran -->
+            <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+                android:id="@+id/detailbayar_swiper"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/detailbayar_recycler"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white" />
+            </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/detailbayar_btnbayar"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Bayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_marginBottom="10dp"
+        android:id="@+id/detailbayar_btnfaktur"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:text="Download Struk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

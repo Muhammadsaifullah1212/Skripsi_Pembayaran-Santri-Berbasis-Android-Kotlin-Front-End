@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SipTren</string>
+    <string name="app_desc">Sistem Informasi Pembayaran Pesantren</string>
+    <string name="app_loading">Mohon menunggu</string>
+
+    <!-- String menu item -->
+
+    <!-- String Login -->
+    <string name="login_nisn">NISN Anda</string>
+    <string name="login_pass">Password</string>
+    <string name="login_login">Login</string>
+
+    <!-- String Profil -->
+    <string name="profil_appbar">Profil Santri</string>
+    <string name="profil_nama">Michael Jono</string>
+    <string name="profil_nisn">12345678</string>
+    <string name="profil_ubahpassword">Ubah Password</string>
+    <string name="profil_logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

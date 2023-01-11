@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.UbahpassActivity">
+
+    <!-- Back Button -->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <ImageButton
+            android:id="@+id/ubahpass_back"
+            android:background="@android:color/white"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- Gambar / Icon -->
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_baseline_lock_reset_24"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <!-- Judul -->
+    <TextView
+        android:layout_marginTop="15dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"
+        android:text="PASSWORD BARU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Keterangan -->
+    <TextView
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:text="Gunakan password atau kata sandi yang baik dan tidak mudah ditebak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <!-- Password Baru -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ubahpass_edtPass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password Baru"
+            android:inputType="textPassword"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Konfirmasi Password -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:passwordToggleEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ubahpass_edtPass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Konfirmasi Password"
+            android:inputType="textPassword"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Tombol Lanjutkan -->
+    <Button
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:id="@+id/ubahpass_btnSimpan"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="@android:color/white"
+        android:text="Simpan Perubahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
